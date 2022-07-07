@@ -1,3 +1,14 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+/*This is how you add the font-family*/
+/*You must make a custom class inorder to add throughout html*/
+@font-face {
+    font-family: shadowfont;
+    src: url(/font/SHADSER.TTF);
+}
+.navfont{
+    font-family: shadowfont;
+}

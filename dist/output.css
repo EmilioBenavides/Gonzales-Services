@@ -592,6 +592,34 @@ video {
   }
 }
 
+.absolute {
+  position: absolute;
+}
+
+.relative {
+  position: relative;
+}
+
+.right-0 {
+  right: 0px;
+}
+
+.bottom-0 {
+  bottom: 0px;
+}
+
+.left-0 {
+  left: 0px;
+}
+
+.top-0 {
+  top: 0px;
+}
+
+.float-left {
+  float: left;
+}
+
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
@@ -610,6 +638,22 @@ video {
   margin-top: 0.5rem;
 }
 
+.mb-0 {
+  margin-bottom: 0px;
+}
+
+.mb-4 {
+  margin-bottom: 1rem;
+}
+
+.block {
+  display: block;
+}
+
+.inline-block {
+  display: inline-block;
+}
+
 .flex {
   display: flex;
 }
@@ -618,32 +662,32 @@ video {
   display: grid;
 }
 
-.h-64 {
-  height: 16rem;
+.hidden {
+  display: none;
 }
 
-.h-36 {
-  height: 9rem;
+.h-64 {
+  height: 16rem;
 }
 
 .h-48 {
   height: 12rem;
 }
 
+.h-36 {
+  height: 9rem;
+}
+
 .w-full {
   width: 100%;
 }
 
-.w-48 {
-  width: 12rem;
+.w-2\/12 {
+  width: 16.666667%;
 }
 
 .max-w-md {
   max-width: 28rem;
-}
-
-.grid-cols-5 {
-  grid-template-columns: repeat(5, minmax(0, 1fr));
 }
 
 .flex-row {
@@ -652,6 +696,10 @@ video {
 
 .items-center {
   align-items: center;
+}
+
+.justify-center {
+  justify-content: center;
 }
 
 .justify-between {
@@ -678,6 +726,10 @@ video {
   border-width: 4px;
 }
 
+.border-0 {
+  border-width: 0px;
+}
+
 .border-solid {
   border-style: solid;
 }
@@ -697,24 +749,13 @@ video {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
-.object-contain {
-  -o-object-fit: contain;
-     object-fit: contain;
+.bg-no-repeat {
+  background-repeat: no-repeat;
 }
 
 .object-cover {
   -o-object-fit: cover;
      object-fit: cover;
-}
-
-.object-fill {
-  -o-object-fit: fill;
-     object-fit: fill;
-}
-
-.object-none {
-  -o-object-fit: none;
-     object-fit: none;
 }
 
 .object-scale-down {
@@ -732,6 +773,10 @@ video {
 
 .p-8 {
   padding: 2rem;
+}
+
+.p-0 {
+  padding: 0px;
 }
 
 .text-center {
@@ -847,10 +892,10 @@ video {
 }
 
 .slide {
-  position: absolute;
-  top: 0;
+  position: relative;
+  bottom: 0;
   width: 100%;
-  height: 50rem;
+  height: 10rem;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -1000,7 +1045,31 @@ video {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
+.hover\:no-underline:hover {
+  -webkit-text-decoration-line: none;
+          text-decoration-line: none;
+}
+
+.hover\:outline-none:hover {
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+}
+
+.focus\:no-underline:focus {
+  -webkit-text-decoration-line: none;
+          text-decoration-line: none;
+}
+
+.focus\:outline-none:focus {
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+}
+
 @media (min-width: 768px) {
+  .md\:block {
+    display: block;
+  }
+
   .md\:flex {
     display: flex;
   }

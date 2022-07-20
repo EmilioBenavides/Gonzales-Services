@@ -3920,6 +3920,14 @@ textarea.form-control.is-invalid {
   margin-top: 1rem;
 }
 
+.mb-8 {
+  margin-bottom: 2rem;
+}
+
+.mb-0 {
+  margin-bottom: 0px;
+}
+
 .block {
   display: block;
 }
@@ -3966,6 +3974,18 @@ textarea.form-control.is-invalid {
 
 .h-full {
   height: 100%;
+}
+
+.h-20 {
+  height: 5rem;
+}
+
+.h-44 {
+  height: 11rem;
+}
+
+.h-32 {
+  height: 8rem;
 }
 
 .w-full {

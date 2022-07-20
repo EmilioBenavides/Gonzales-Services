@@ -3916,18 +3916,6 @@ textarea.form-control.is-invalid {
   margin-top: 2rem;
 }
 
-.mt-4 {
-  margin-top: 1rem;
-}
-
-.mb-8 {
-  margin-bottom: 2rem;
-}
-
-.mb-0 {
-  margin-bottom: 0px;
-}
-
 .block {
   display: block;
 }
@@ -3968,24 +3956,16 @@ textarea.form-control.is-invalid {
   height: 12rem;
 }
 
-.h-28 {
-  height: 7rem;
-}
-
-.h-full {
-  height: 100%;
-}
-
-.h-20 {
-  height: 5rem;
+.h-32 {
+  height: 8rem;
 }
 
 .h-44 {
   height: 11rem;
 }
 
-.h-32 {
-  height: 8rem;
+.h-full {
+  height: 100%;
 }
 
 .w-full {
@@ -4064,10 +4044,6 @@ textarea.form-control.is-invalid {
   border-radius: 0.75rem;
 }
 
-.rounded-full {
-  border-radius: 9999px;
-}
-
 .rounded-t-lg {
   border-top-left-radius: 0.5rem;
   border-top-right-radius: 0.5rem;
@@ -4077,14 +4053,6 @@ textarea.form-control.is-invalid {
   border-width: 4px;
 }
 
-.border {
-  border-width: 1px;
-}
-
-.border-2 {
-  border-width: 2px;
-}
-
 .border-solid {
   border-style: solid;
 }
@@ -4092,11 +4060,6 @@ textarea.form-control.is-invalid {
 .border-green-900 {
   --tw-border-opacity: 1;
   border-color: rgb(20 83 45 / var(--tw-border-opacity));
-}
-
-.border-white {
-  --tw-border-opacity: 1;
-  border-color: rgb(255 255 255 / var(--tw-border-opacity));
 }
 
 .bg-stone-300 {
@@ -4124,10 +4087,6 @@ textarea.form-control.is-invalid {
 
 .p-8 {
   padding: 2rem;
-}
-
-.p-6 {
-  padding: 1.5rem;
 }
 
 .pr-2 {

@@ -4120,6 +4120,14 @@ textarea.form-control.is-invalid {
   text-align: center;
 }
 
+.text-justify {
+  text-align: justify;
+}
+
+.align-middle {
+  vertical-align: middle;
+}
+
 .text-5xl {
   font-size: 3rem;
   line-height: 1;
